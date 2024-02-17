@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "types": ["node", "cesium", "vite/client"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "baseUrl": "./src",
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Node"
+  }
+}

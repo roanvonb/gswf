@@ -1,5 +1,4 @@
 import * as Cesium from "cesium";
-import "./App.css";
 import { Viewer } from "resium";
 import { useMemo } from 'react';
 

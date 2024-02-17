@@ -1,10 +1,17 @@
 import * as Cesium from "cesium";
 import "./App.css";
 import { Viewer } from "resium";
+import { useMemo } from 'react';
+
 
 Cesium.Ion.defaultAccessToken = import.meta.env.VITE_ION_TOKEN;
 
 function App() {
+  const terrainProvider = useMemo(
+    async () => await Cesium.createWorldTerrainAsync(),
+    []
+  );
+
   return (
     <Viewer
       full
@@ -17,6 +24,7 @@ function App() {
       projectionPicker={false}
       sceneModePicker={false}
       baseLayerPicker={false}
+      terrainProvider={terrainProvider}
     />
   );
 }

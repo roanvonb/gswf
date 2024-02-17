@@ -6,6 +6,12 @@
     "baseUrl": "./src",
     "checkJs": true,
     "jsx": "react-jsx",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "useDefineForClassFields": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }

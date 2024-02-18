@@ -32,8 +32,15 @@ const fetchTerrain = async (ref) => {
 
 const fetchKml = async (ref) => {
     if (ref.current && ref.current.cesiumElement) {
-        const url = await Cesium.IonResource.fromAssetId(2462247);
+        const url = await Cesium.IonResource.fromAssetId(2464818);
         const kml = await Cesium.KmlDataSource.load(url, { clampToGround: true });
+
+        for (const entity of kml.entities.values) {
+            // @ts-ignore
+            entity.polyline.width = 1;
+            entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.RED)
+        }
+
         ref.current?.cesiumElement.dataSources.add(kml);
     }
     else {

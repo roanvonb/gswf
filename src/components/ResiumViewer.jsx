@@ -30,53 +30,29 @@ const fetchTerrain = async (ref) => {
 
 }
 
-const fetchAsbuiltKml = async (ref) => {
+const fetch_kml = async (ref, ion_id, color, width) => {
     if (ref.current && ref.current.cesiumElement) {
-        const asbuilt_url = await Cesium.IonResource.fromAssetId(2464856);
-        const asbuilt_kml = await Cesium.KmlDataSource.load(asbuilt_url, { clampToGround: true });
+        const url = await Cesium.IonResource.fromAssetId(ion_id);
+        const kml = await Cesium.KmlDataSource.load(url, { clampToGround: true });
 
-        for (const entity of asbuilt_kml.entities.values) {
+        for (const entity of kml.entities.values) {
             if (entity.polyline) {
-                // @ts-ignore
-                entity.polyline.width = 2;
-                entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.BLUE)
+                entity.polyline.width = width;
+                entity.polyline.material = new Cesium.ColorMaterialProperty(color)
             }
 
         }
 
-        ref.current?.cesiumElement.dataSources.add(asbuilt_kml);
-    }
-    else {
-        await sleep(1000);
-        fetchAsbuiltKml(ref);
-    }
 
-}
-
-const fetchCorridorKml = async (ref) => {
-    if (ref.current && ref.current.cesiumElement) {
-        const corridor_url = await Cesium.IonResource.fromAssetId(2464848);
-        const corridor_kml = await Cesium.KmlDataSource.load(corridor_url, { clampToGround: true });
-
-        for (const entity of corridor_kml.entities.values) {
-            // @ts-ignore
-            entity.polyline.width = 1;
-            entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.LIME)
-        }
-
-
-        ref.current?.cesiumElement.dataSources.add(corridor_kml);
+        ref.current?.cesiumElement.dataSources.add(kml);
 
     }
     else {
         await sleep(1000);
-        fetchCorridorKml(ref);
-        fetchAsbuiltKml(ref);
+        fetch_kml(ref, ion_id, color, width);
     }
 
 }
-
-
 
 export function ResiumViewer() {
 
@@ -84,7 +60,10 @@ export function ResiumViewer() {
 
     useEffect(() => {
         fetchTerrain(ref);
-        fetchCorridorKml(ref);
+        fetch_kml(ref, 2464848, Cesium.Color.LIME, 1); // corridor
+        fetch_kml(ref, 2464859, Cesium.Color.YELLOW, 2); // calc
+        fetch_kml(ref, 2464856, Cesium.Color.BLUE, 2); // asbuilt
+
     }, []);
 
 

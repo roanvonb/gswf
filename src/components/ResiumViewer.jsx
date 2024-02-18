@@ -80,6 +80,7 @@ export function ResiumViewer() {
             fullscreenButton={false}
             projectionPicker={false}
             sceneModePicker={false}
+            baseLayerPicker={false}
         >
             <Entity position={default_compound_position} name="Main Compound">
                 <PointGraphics pixelSize={10} heightReference={Cesium.HeightReference.CLAMP_TO_GROUND} />

@@ -20,7 +20,8 @@ function sleep(ms) {
 
 const fetchTerrain = async (ref) => {
     if (ref.current && ref.current.cesiumElement) {
-        ref.current.cesiumElement.terrainProvider = await Cesium.createWorldTerrainAsync()
+        ref.current.cesiumElement.extend(Cesium.viewerDragDropMixin);
+        ref.current.cesiumElement.terrainProvider = await Cesium.createWorldTerrainAsync();
 
     }
     else {
@@ -40,9 +41,7 @@ const fetch_kml = async (ref, ion_id, color, width) => {
                 entity.polyline.width = width;
                 entity.polyline.material = new Cesium.ColorMaterialProperty(color)
             }
-
         }
-
 
         ref.current?.cesiumElement.dataSources.add(kml);
 
@@ -65,8 +64,6 @@ export function ResiumViewer() {
         fetch_kml(ref, 2464856, Cesium.Color.BLUE, 2); // asbuilt
 
     }, []);
-
-
 
     return (
         <Viewer

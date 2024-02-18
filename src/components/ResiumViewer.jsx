@@ -61,7 +61,7 @@ const fetchCorridorKml = async (ref) => {
         for (const entity of corridor_kml.entities.values) {
             // @ts-ignore
             entity.polyline.width = 1;
-            entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.RED)
+            entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.LIME)
         }
 
 

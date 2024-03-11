@@ -97,7 +97,21 @@ export function ResiumViewer() {
                 />
             </Entity>
             <CameraFlyTo destination={default_camera_position} />
-            <KmlDataSource data={"mv_design.kml"} clampToGround/>
+            <KmlDataSource data={"mv_design.kml"} clampToGround onLoad={(kmlDataSouce)=>onloadDesign(kmlDataSouce)}/>
         </Viewer>
     );
+}
+
+
+const onloadDesign = (kmlDataSouce) =>{
+    console.log(kmlDataSouce);
+    for (const entity of kmlDataSouce.entities.values) {
+        if (entity.polyline) {
+                entity.polyline.width = 2;
+            
+                // entity.polyline.material = new Cesium.ColorMaterialProperty(color)
+            
+        }
+    }
+
 }

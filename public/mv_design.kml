@@ -5005,9 +5005,9 @@
               </Placemark>
             </Folder>
             <Folder>
-              <name>LABEL - WF1201</name>
+              <name>WF1201 - WF1201</name>
               <Placemark>
-                <name>LABEL - WF1201</name>
+                <name>WF1201 - WF1201</name>
                 <LookAt>
                   <longitude>138.9787764170945081</longitude>
                   <latitude>-33.7758405229823069</latitude>
@@ -5017,7 +5017,7 @@
                 </LookAt>
                 <Style>
                   <LineStyle>
-                    <color>fe0000ff</color>
+                    <color>feff00ff</color>
                     <width>1</width>
                   </LineStyle>
                 </Style>
@@ -6041,9 +6041,9 @@
               </Placemark>
             </Folder>
             <Folder>
-              <name>LABEL - WF1201</name>
+              <name>WF1201 - WF1201</name>
               <Placemark>
-                <name>LABEL - WF1201</name>
+                <name>WF1201 - WF1201</name>
                 <LookAt>
                   <longitude>138.9866992571396906</longitude>
                   <latitude>-33.7713291920933614</latitude>
@@ -6053,7 +6053,7 @@
                 </LookAt>
                 <Style>
                   <LineStyle>
-                    <color>fe0000ff</color>
+                    <color>feff00ff</color>
                     <width>1</width>
                   </LineStyle>
                 </Style>

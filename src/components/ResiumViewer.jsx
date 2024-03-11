@@ -108,9 +108,10 @@ const onloadDesign = (kmlDataSouce) =>{
     for (const entity of kmlDataSouce.entities.values) {
         if (entity.polyline) {
                 entity.polyline.width = 2;
-            
-                // entity.polyline.material = new Cesium.ColorMaterialProperty(color)
-            
+                if (entity.parent.parent.name == "CABLE"){
+                    // entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.RED)
+                }
+
         }
     }
 

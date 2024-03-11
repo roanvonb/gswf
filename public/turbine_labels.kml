@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <name>turbine_labels</name>
+    <open>1</open>
+    <Folder>
+      <name>DESIGN</name>
+      <Folder>
+        <name>CIVIL</name>
+        <Folder>
+          <name>LABELS</name>
+          <Folder>
+            <name>TURBINES STRING NAMES</name>
+            <Placemark>
+              <name>B010</name>
+              <Style id="595600_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="595600_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9757877110973823,-33.7183674697222528,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9757877110973823</longitude>
+                <latitude>-33.7183674697222528</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B017</name>
+              <Style id="595601_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="595601_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9814013070877650,-33.7187208772155032,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9814013070877650</longitude>
+                <latitude>-33.7187208772155032</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B024</name>
+              <Style id="601066_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601066_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9882292975553355,-33.7118890919756069,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9882292975553355</longitude>
+                <latitude>-33.7118890919756069</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B027</name>
+              <Style id="601068_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601068_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9933509104120049,-33.7180680585007835,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9933509104120049</longitude>
+                <latitude>-33.7180680585007835</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B028</name>
+              <Style id="601071_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601071_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9945416542585690,-33.7243994409457741,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9945416542585690</longitude>
+                <latitude>-33.7243994409457741</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B030</name>
+              <Style id="601073_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601073_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9939982262962133,-33.7296656647140907,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9939982262962133</longitude>
+                <latitude>-33.7296656647140907</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B025</name>
+              <Style id="601074_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601074_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9905034101047647,-33.7356052407989750,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9905034101047647</longitude>
+                <latitude>-33.7356052407989750</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B050</name>
+              <Style id="601075_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601075_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0192478156216396,-33.8114438431172033,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0192478156216396</longitude>
+                <latitude>-33.8114438431172033</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B051</name>
+              <Style id="601076_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601076_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0200726318012698,-33.8056321347885245,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0200726318012698</longitude>
+                <latitude>-33.8056321347885245</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B048</name>
+              <Style id="601077_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601077_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0159406012324439,-33.8030955220334803,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0159406012324439</longitude>
+                <latitude>-33.8030955220334803</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B047</name>
+              <Style id="601078_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601078_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0144795334463765,-33.7985454049594054,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0144795334463765</longitude>
+                <latitude>-33.7985454049594054</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B038</name>
+              <Style id="601079_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601079_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0089349667077556,-33.8005750350701533,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0089349667077556</longitude>
+                <latitude>-33.8005750350701533</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B040</name>
+              <Style id="601080_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601080_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0077615191882501,-33.7952996154625822,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0077615191882501</longitude>
+                <latitude>-33.7952996154625822</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B043</name>
+              <Style id="601081_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601081_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0104080298165741,-33.7901299206558932,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0104080298165741</longitude>
+                <latitude>-33.7901299206558932</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B045</name>
+              <Style id="601082_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601082_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0108091448485652,-33.7858622654650276,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0108091448485652</longitude>
+                <latitude>-33.7858622654650276</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B049</name>
+              <Style id="601084_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601084_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0182240733129788,-33.7907061114286265,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0182240733129788</longitude>
+                <latitude>-33.7907061114286265</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B052</name>
+              <Style id="601085_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="601085_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0243667031536745,-33.7959990472817964,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0243667031536745</longitude>
+                <latitude>-33.7959990472817964</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B025</name>
+              <Style id="606783_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="606783_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9905034101047647,-33.7356052407989822,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9905034101047647</longitude>
+                <latitude>-33.7356052407989822</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B032</name>
+              <Style id="607397_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607397_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9982972871413835,-33.7485452846470579,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9982972871413835</longitude>
+                <latitude>-33.7485452846470579</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B034</name>
+              <Style id="607398_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607398_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0013778043415016,-33.7558089462791742,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0013778043415016</longitude>
+                <latitude>-33.7558089462791742</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B042</name>
+              <Style id="607399_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607399_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0112873503407513,-33.7469518695691448,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0112873503407513</longitude>
+                <latitude>-33.7469518695691448</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B037</name>
+              <Style id="607400_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607400_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0083282655799621,-33.7572829276449227,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0083282655799621</longitude>
+                <latitude>-33.7572829276449227</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B035</name>
+              <Style id="607401_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607401_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0034074064566596,-33.7618562504297657,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0034074064566596</longitude>
+                <latitude>-33.7618562504297657</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B036</name>
+              <Style id="607402_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607402_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0046820786522517,-33.7660157463628181,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0046820786522517</longitude>
+                <latitude>-33.7660157463628181</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B039</name>
+              <Style id="607403_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607403_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0085342564581765,-33.7726424866430648,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0085342564581765</longitude>
+                <latitude>-33.7726424866430648</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B044</name>
+              <Style id="607404_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607404_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0103202494959476,-33.7775671491292755,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0103202494959476</longitude>
+                <latitude>-33.7775671491292755</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B046</name>
+              <Style id="607405_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607405_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>139.0130008839485640,-33.7812086718270592,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>139.0130008839485640</longitude>
+                <latitude>-33.7812086718270592</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B031</name>
+              <Style id="607406_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="607406_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9947012725008619,-33.7606600580818537,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9947012725008619</longitude>
+                <latitude>-33.7606600580818537</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B033</name>
+              <Style id="612884_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="612884_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9976232959627396,-33.7427188783180299,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9976232959627396</longitude>
+                <latitude>-33.7427188783180299</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B023</name>
+              <Style id="682603_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="682603_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9858204908553603,-33.7720122318069684,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9858204908553603</longitude>
+                <latitude>-33.7720122318069684</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B021</name>
+              <Style id="682605_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="682605_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9812381651649673,-33.7804765206798621,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9812381651649673</longitude>
+                <latitude>-33.7804765206798621</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B026</name>
+              <Style id="682607_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="682607_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9901064195453557,-33.7886736102254588,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9901064195453557</longitude>
+                <latitude>-33.7886736102254588</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+            <Placemark>
+              <name>B029</name>
+              <Style id="682609_1">
+                <IconStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                  <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+                    <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+                  </Icon>
+                </IconStyle>
+                <LabelStyle>
+                  <color>feffffff</color>
+                  <scale>0.7</scale>
+                </LabelStyle>
+              </Style>
+              <Point id="682609_1">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>138.9927082984551419,-33.7933327373258265,0.0000</coordinates>
+              </Point>
+              <LookAt>
+                <longitude>138.9927082984551419</longitude>
+                <latitude>-33.7933327373258265</latitude>
+                <altitude>0.000</altitude>
+                <tilt>45.000</tilt>
+                <range>250.000</range>
+              </LookAt>
+            </Placemark>
+          </Folder>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

@@ -97,34 +97,55 @@ export function ResiumViewer() {
                 />
             </Entity>
             <CameraFlyTo destination={default_camera_position} />
-            <KmlDataSource data={"mv_design.kml"} clampToGround onLoad={(kmlDataSouce)=>onloadDesign(kmlDataSouce)}/>
+            <KmlDataSource data={"design_mv_corridor_linework.kml"} clampToGround  onLoad={(kmlDataSouce)=>onLoadCorridorLinework(kmlDataSouce)}/>
+            <KmlDataSource data={"design_mv_cable_linework.kml"} clampToGround  onLoad={(kmlDataSouce)=>onLoadCableLinework(kmlDataSouce)}/>
+            <KmlDataSource data={"design_mv_cable_labels.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadCableLabels(kmlDataSouce)}/>
+            <KmlDataSource data={"design_mv_jb_labels.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadJunctionBoxLabels(kmlDataSouce)}/>
+            <KmlDataSource data={"turbine_labels.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadTurbineLabels(kmlDataSouce)}/>
         </Viewer>
     );
 }
 
 
-const onloadDesign = (kmlDataSouce) =>{
+const onLoadTurbineLabels = async (kmlDataSouce) =>{
     console.log(kmlDataSouce);
     for (const entity of kmlDataSouce.entities.values) {
-        
-        if (entity.polyline) {
-                entity.polyline.width = 2;
-                if (entity.parent.parent.name == "CABLE"){
-                    // entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.RED)
-                }
-
-        }
         if(entity.label){
-            if (entity.parent.name.includes("JUNCTION BOX")){
-                entity.label.scaleByDistance = new Cesium.NearFarScalar(1.0e2, 1.8, 1.0e5, 0.1);
-                entity.label.fillColor = Cesium.Color.ORANGE;
-                entity.label.outlineWidth = 4;
-            }
-            if (entity.parent.name.includes("TURBINE")){
-                entity.label.scaleByDistance = new Cesium.NearFarScalar(1.0e2, 2, 1.0e5, 0.1);
-                entity.label.outlineWidth = 4;
-            }
+            entity.label.scaleByDistance = new Cesium.NearFarScalar(1.0e2, 2, 1.0e5, 0.1);
+            entity.label.outlineWidth = 4;            
         }
     }
 
+}
+const onLoadJunctionBoxLabels = async (kmlDataSouce) =>{
+    console.log(kmlDataSouce);
+    for (const entity of kmlDataSouce.entities.values) {
+        if(entity.label){
+            entity.label.scaleByDistance = new Cesium.NearFarScalar(1.0e2, 1.8, 1.0e5, 0.1);
+            entity.label.fillColor = Cesium.Color.ORANGE;
+            entity.label.outlineWidth = 4;            
+        }
+    }
+
+}
+const onLoadCorridorLinework = async (kmlDataSouce) =>{
+    for (const entity of kmlDataSouce.entities.values) {
+        if (entity.polyline) {
+            entity.polyline.width = 2;
+        }
+    }
+}
+const onLoadCableLinework = async (kmlDataSouce) =>{
+    for (const entity of kmlDataSouce.entities.values) {
+        if (entity.polyline) {
+            entity.polyline.width = 3;
+        }
+    }
+}
+const onLoadCableLabels = async (kmlDataSouce) =>{
+    for (const entity of kmlDataSouce.entities.values) {
+        if (entity.polyline) {
+            entity.polyline.width = 3;
+        }
+    }
 }

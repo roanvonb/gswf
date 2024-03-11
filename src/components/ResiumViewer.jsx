@@ -106,12 +106,21 @@ export function ResiumViewer() {
 const onloadDesign = (kmlDataSouce) =>{
     console.log(kmlDataSouce);
     for (const entity of kmlDataSouce.entities.values) {
+        
         if (entity.polyline) {
                 entity.polyline.width = 2;
                 if (entity.parent.parent.name == "CABLE"){
                     // entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.RED)
                 }
 
+        }
+        if(entity.label){
+            if (entity.parent.name.includes("JUNCTION BOX")){
+                entity.label.scale = 0.9
+            }
+            if (entity.parent.name.includes("TURBINE")){
+                entity.label.scale = 1.1
+            }
         }
     }
 

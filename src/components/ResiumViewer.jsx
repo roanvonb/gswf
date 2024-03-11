@@ -38,8 +38,14 @@ const fetch_kml = async (ref, ion_id, color, width) => {
 
         for (const entity of kml.entities.values) {
             if (entity.polyline) {
-                entity.polyline.width = width;
-                entity.polyline.material = new Cesium.ColorMaterialProperty(color)
+                if (width){
+                    entity.polyline.width = width;
+                }
+                
+                if (color){
+                    entity.polyline.material = new Cesium.ColorMaterialProperty(color)
+                }
+                
             }
         }
 
@@ -59,9 +65,8 @@ export function ResiumViewer() {
 
     useEffect(() => {
         fetchTerrain(ref);
-        fetch_kml(ref, 2464848, Cesium.Color.LIME, 1); // corridor
-        fetch_kml(ref, 2464859, Cesium.Color.YELLOW, 2); // calc
-        fetch_kml(ref, 2464856, Cesium.Color.BLUE, 2); // asbuilt
+        fetch_kml(ref, 2496167, null, 2); // design
+        // fetch_kml(ref, 2464856, Cesium.Color.BLUE, 2); // asbuilt
 
     }, []);
 

@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef } from 'react';
 import {
     CameraFlyTo,
     Entity,
+    KmlDataSource,
     LabelGraphics,
     PointGraphics,
     Viewer,
@@ -65,7 +66,7 @@ export function ResiumViewer() {
 
     useEffect(() => {
         fetchTerrain(ref);
-        fetch_kml(ref, 2496167, null, 2); // design
+        // fetch_kml(ref, 2496167, null, 2); // design
         // fetch_kml(ref, 2464856, Cesium.Color.BLUE, 2); // asbuilt
 
     }, []);
@@ -96,6 +97,7 @@ export function ResiumViewer() {
                 />
             </Entity>
             <CameraFlyTo destination={default_camera_position} />
+            <KmlDataSource data={"mv_design.kml"} />
         </Viewer>
     );
 }

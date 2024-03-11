@@ -117,12 +117,12 @@ const onloadDesign = (kmlDataSouce) =>{
         if(entity.label){
             if (entity.parent.name.includes("JUNCTION BOX")){
                 entity.label.scaleByDistance = new Cesium.NearFarScalar(1.0e2, 1.8, 1.0e5, 0.1);
-                entity.label.fillColor = Cesium.Color.WHITE;
-                entity.label.outlineWidth = 2;
+                entity.label.fillColor = Cesium.Color.ORANGE;
+                entity.label.outlineWidth = 4;
             }
             if (entity.parent.name.includes("TURBINE")){
                 entity.label.scaleByDistance = new Cesium.NearFarScalar(1.0e2, 2, 1.0e5, 0.1);
-                entity.label.outlineWidth = 2;
+                entity.label.outlineWidth = 4;
             }
         }
     }

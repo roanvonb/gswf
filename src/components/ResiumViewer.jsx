@@ -97,7 +97,7 @@ export function ResiumViewer() {
                 />
             </Entity>
             <CameraFlyTo destination={default_camera_position} />
-            <KmlDataSource data={"mv_design.kml"} />
+            <KmlDataSource data={"mv_design.kml"} clampToGround/>
         </Viewer>
     );
 }

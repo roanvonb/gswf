@@ -1,6 +1,7 @@
 import * as Cesium from 'cesium';
 import { useEffect, useMemo, useRef } from 'react';
 import {
+    BillboardGraphics,
     CameraFlyTo,
     Entity,
     KmlDataSource,
@@ -60,6 +61,32 @@ const fetch_kml = async (ref, ion_id, color, width) => {
 
 }
 
+function showUserLocation(position,ref) {
+    const longitude = position.coords.longitude;
+    const latitude = position.coords.latitude;
+    if (ref.current && ref.current.cesiumElement) {
+        ref.current.cesiumElement.entities.add(
+            {
+            position: Cesium.Cartesian3.fromDegrees(longitude, latitude),
+            heightReference: Cesium.HeightReference.CLAMP_TO_TERRAIN,
+            point: {
+                pixelSize:8,
+                outlineWidth:2,
+                outlineColor:Cesium.Color.WHITE,
+                color:Cesium.Color.BLUE
+            }}
+        );
+    }
+}
+
+function getUserLocation(ref){
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position)=>showUserLocation(position,ref));
+      } else {
+        console.log("Geolocation not supported");
+      }
+}
+
 export function ResiumViewer() {
 
     const ref = useRef(null);
@@ -68,6 +95,9 @@ export function ResiumViewer() {
         fetchTerrain(ref);
         // fetch_kml(ref, 2496167, null, 2); // design
         // fetch_kml(ref, 2464856, Cesium.Color.BLUE, 2); // asbuilt
+        getUserLocation(ref);
+        
+          
 
     }, []);
 
@@ -85,10 +115,10 @@ export function ResiumViewer() {
             sceneModePicker={false}
             baseLayerPicker={false}
         >
-            <Entity position={default_compound_position} name="Main Compound">
+            <Entity position={default_compound_position} name="Compound">
                 <PointGraphics pixelSize={10} heightReference={Cesium.HeightReference.CLAMP_TO_GROUND} />
                 <LabelGraphics
-                    text="Main Compound"
+                    text="Compound"
                     verticalOrigin={Cesium.VerticalOrigin.BOTTOM}
                     pixelOffset={new Cesium.Cartesian2(0, -9)}
                     font="14pt monospace"
@@ -108,7 +138,6 @@ export function ResiumViewer() {
 
 
 const onLoadTurbineLabels = async (kmlDataSouce) =>{
-    console.log(kmlDataSouce);
     for (const entity of kmlDataSouce.entities.values) {
         if(entity.label){
             entity.label.scaleByDistance = new Cesium.NearFarScalar(1.0e2, 2, 1.0e5, 0.1);
@@ -118,7 +147,6 @@ const onLoadTurbineLabels = async (kmlDataSouce) =>{
 
 }
 const onLoadJunctionBoxLabels = async (kmlDataSouce) =>{
-    console.log(kmlDataSouce);
     for (const entity of kmlDataSouce.entities.values) {
         if(entity.label){
             entity.label.scaleByDistance = new Cesium.NearFarScalar(1.0e2, 1.8, 1.0e5, 0.1);

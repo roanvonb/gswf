@@ -68,7 +68,7 @@ function showUserLocation(position,ref) {
         ref.current.cesiumElement.entities.add(
             {
             position: Cesium.Cartesian3.fromDegrees(longitude, latitude),
-            heightReference: Cesium.HeightReference.CLAMP_TO_TERRAIN,
+            heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
             point: {
                 pixelSize:8,
                 outlineWidth:2,

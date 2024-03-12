@@ -24,7 +24,6 @@ const fetchTerrain = async (ref) => {
     if (ref.current && ref.current.cesiumElement) {
         ref.current.cesiumElement.extend(Cesium.viewerDragDropMixin);
         ref.current.cesiumElement.terrainProvider = await Cesium.createWorldTerrainAsync();
-
     }
     else {
         await sleep(1000);
@@ -95,7 +94,7 @@ export function ResiumViewer() {
         fetchTerrain(ref);
         // fetch_kml(ref, 2496167, null, 2); // design
         // fetch_kml(ref, 2464856, Cesium.Color.BLUE, 2); // asbuilt
-        getUserLocation(ref);
+        // getUserLocation(ref);
         
           
 

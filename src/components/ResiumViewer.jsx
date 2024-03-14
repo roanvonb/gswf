@@ -184,7 +184,7 @@ const onLoadRoadLinework = async (kmlDataSouce) =>{
     for (const entity of kmlDataSouce.entities.values) {
         if (entity.polyline) {
             entity.polyline.width = 1;
-            entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.LIGHTGRAY)
+            entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.GRAY)
         }
     }
 }

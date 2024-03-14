@@ -134,6 +134,7 @@ export function ResiumViewer() {
             <KmlDataSource data={"design_avoidance_zones.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadAvoidanceLinework(kmlDataSouce)}/>
             <KmlDataSource data={"design_roads.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadRoadLinework(kmlDataSouce)}/>
             <KmlDataSource data={"design_drains.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadDrainLinework(kmlDataSouce)}/>
+            <KmlDataSource data={"design_culverts.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadCulvertLinework(kmlDataSouce)}/>
         </Viewer>
     );
 }
@@ -194,6 +195,14 @@ const onLoadDrainLinework = async (kmlDataSouce) =>{
         if (entity.polyline) {
             entity.polyline.width = 3;
             entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.BLUE)
+        }
+    }
+}
+const onLoadCulvertLinework = async (kmlDataSouce) =>{
+    for (const entity of kmlDataSouce.entities.values) {
+        if (entity.polyline) {
+            entity.polyline.width = 5;
+            entity.polyline.material = new Cesium.ColorMaterialProperty(Cesium.Color.YELLOW)
         }
     }
 }

@@ -131,7 +131,7 @@ export function ResiumViewer() {
             <KmlDataSource data={"design_mv_cable_labels.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadCableLabels(kmlDataSouce)}/>
             <KmlDataSource data={"design_mv_jb_labels.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadJunctionBoxLabels(kmlDataSouce)}/>
             <KmlDataSource data={"turbine_labels.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadTurbineLabels(kmlDataSouce)}/>
-            <KmlDataSource data={"design_avoidance_zones.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadAvoidanceLinework(kmlDataSouce)}/>
+            {/* <KmlDataSource data={"design_avoidance_zones.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadAvoidanceLinework(kmlDataSouce)}/> */}
             <KmlDataSource data={"design_roads.kml"} clampToGround onLoad={(kmlDataSouce)=>onLoadRoadLinework(kmlDataSouce)}/>
         </Viewer>
     );
